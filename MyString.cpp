@@ -14,20 +14,20 @@ private:
 		_data[_length] = '\0';
 	}
 public:
-	//默认构造
+	//default constructor
 	MyString()
 	{
 		cout << "default constructor" << endl;
 		_data = NULL;
 		_length = 0;	
 	}
-	//析构
+	//destructor
 	~MyString()
 	{
 		_data = NULL;
 		_length = 0;
 	}
-	//构造
+	//constructor
 	MyString(const char *s)
 	{
 		cout << "constructor" << endl;
